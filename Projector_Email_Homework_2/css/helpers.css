@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: url("../fonts/Montserrat-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: url("../fonts/Montserrat-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Droid Serif', serif;
+	src: url("../fonts/DroidSerif-Italic.ttf");
+	font-weight: 400;
+	font-style: italic;
+	}
+@font-face {
+	font-family: 'Roboto Slab', serif;
+	src: url("../fonts/RobotoSlab-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+	}
+
+/* FONTS */
+
+h1, h2, h3, h4, h5, .welcome {
+	text-align: center;
+	}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 56px;
+	}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #222222;
+	font-size: 28px;
+	margin-bottom: 14px;
+	}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #222222;
+	font-size: 13px;
+	margin: 0;
+	padding-top: 25px;
+	line-height: 20px;
+	}
+
+	/* Subtitle */
+h4 {font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-weight: 400;
+	color: #777777; 
+	font-size: 12px;	
+	}
+	/* Subtitle 2 */
+h5 {
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-weight: 400;
+	color: #777777; 
+	font-size: 10px;
+	margin: 0;
+	padding-top: 5 px;
+	}
+
+.welcome {
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 30px;
+	}
+
+/* helpers */
+
+.article_header {
+	padding-top: 94px;
+	padding-bottom: 62px;
+	}
+
+.clearfix::after, .clearfix::before {
+	clear: both;
+	content: '';
+	display: table;
+	}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+	}
+
+.center {               
+	margin: 0 auto;
+	}
+
+
+/* SPRITE */
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+	}
+
+.sprite-Icon-Basket1 {
+    width: 74px;
+    height: 73px;
+    background-position: -107px -56px;
+	}
+.sprite-Icon-Laptop {
+    width: 74px;
+    height: 73px;
+    background-position: -5px -139px;
+	}
+.sprite-Icon-Locked {
+    width: 74px;
+    height: 73px;
+    background-position: -89px -139px;
+	}	
+
+.sprite-Facebook {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -5px;
+	}
+.sprite-Facebook1 {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -5px;
+	}
+.sprite-Facebook2 {
+    width: 41px;
+    height: 41px;
+    background-position: -107px -5px;
+	}
+
+.sprite-Google_ {
+    width: 41px;
+    height: 41px;
+    background-position: -158px -5px;
+	}
+.sprite-Google_1 {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -56px;
+	}
+.sprite-Google_2 {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -56px;
+	}
+
+.sprite-Pinterest {
+    width: 41px;
+    height: 41px;
+    background-position: -173px -139px;
+	}
+.sprite-Pinterest1 {
+    width: 41px;
+    height: 41px;
+    background-position: -209px -5px;
+	}
+.sprite-Pinterest2 {
+    width: 41px;
+    height: 41px;
+    background-position: -191px -56px;
+	}
+
+.sprite-Twitter {
+    width: 41px;
+    height: 41px;
+    background-position: -224px -107px;
+	}
+.sprite-Twitter1 {
+    width: 41px;
+    height: 41px;
+    background-position: -224px -158px;
+	}
+.sprite-Twitter2 {
+    width: 41px;
+    height: 41px;
+    background-position: -173px -209px;
+	}
