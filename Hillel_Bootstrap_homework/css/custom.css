@@ -1,0 +1,245 @@
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	}
+
+.grey-line {
+	border-bottom: 1px solid #f1f1f1;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+/*BUTTONS*/
+
+.my_btn {
+	background-color: #e92121;
+	border-radius: 3px;
+	border: none;
+	padding: 23px 42px 23px 42px;
+	}
+.my_btn:hover, .my_btn:focus, .my_btn_2:hover, .my_btn_2:focus  {
+	color: white;
+	border: 1px solid white;
+	background-color: rgba(28, 28, 28, 0.6);
+	}
+
+.my_btn_2 {
+	background-color: transparent;	
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 20px 25px 23px 25px;
+	}
+
+
+
+/*HEADER*/
+
+header {
+	height: 800px;
+	background-image: url('../images/header-bgr.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	}
+
+nav {
+	height: 102px;
+	line-height: 102px;
+	}
+
+.menu {
+	list-style-type: none;
+	}
+	.menu li {
+		display: inline-block;
+		padding: 0 23px;
+		}
+		.menu li a {
+		color: white;
+		}
+		.menu li a:hover,
+		.menu li a:focus  {
+			color: #868686;
+			text-decoration: none;
+			}
+			
+.logo {
+	padding-top: 45px;
+	}
+
+.title_block {
+	color: white;
+	margin-top: 210px;
+	}
+	.title_block p {
+		font-weight: 300;
+		font-size: 24px;
+		}
+	.title_block h1 {
+		font-weight: 700;
+		font-size: 60px;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+		}
+	.title_block button {
+		font-weight: 700;
+		font-size: 16px;
+		margin-right: 25px;
+		}
+
+/*ABOUT*/
+
+.about {
+	margin-top: 90px;
+	}
+
+.about_h1 {
+	padding-top: 40px;
+	}
+
+.about_h1 p, .why h1 {
+	color: #464646;
+	font-weight: 700;
+	font-size: 50px;
+	text-transform: uppercase;
+	}
+.about_p p {
+	color: #aeadad;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 2;
+	padding-bottom: 30px;
+	}
+
+
+
+/*ZIGZAG*/
+
+.zigzag {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    width: 70px;
+    align: center;
+    color: #aeadad;
+}
+
+
+/*6 STEPS*/
+
+.steps_header {
+	color: #464646;
+	text-align: center;
+	margin-bottom: 120px;
+	}
+	.steps_header h2 {
+		text-align: center;
+		font-weight: 700;
+		font-size: 30px;
+		padding-bottom: 10px;
+		}
+	.steps_header p {
+		color: #aeadad;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 2;
+		}
+
+.icon {
+	color: #e92121;
+	margin-bottom: 20px;
+	}
+
+.steps_steps div {
+	margin-bottom: 40px;
+	}
+.steps_steps h4, .why_content h4 {
+	width: 65%;
+	color: #464646;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.4;
+	margin-bottom: 10px;
+	}
+.steps_steps p, .why_content p {
+	width: 80%;
+	color: #b7b7b7;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.4;
+	}
+
+/*SLIDER*/
+
+.slider {
+	background-color: #faf9f9;
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: left;
+	padding-bottom: 90px;
+	position: relative;
+	}
+	.slider img {
+		padding: 20px;
+		}
+	.slider h2 {
+		font-weight: 700;
+		font-size: 30px;
+		padding-bottom: 10px;
+		}
+	.slider p {
+		color: #aeadad;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 2;
+		padding-bottom: 25px;
+		}
+	.slider .zigzag {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    width: 70px;
+    text-align: left;
+    color: #aeadad;
+    margin: 0;
+    padding-bottom: 20px;
+	}
+	.slider_content {
+	  padding-top: 80px;
+	  text-align: left;
+	  left: 0;
+		}
+		.slider button {
+		font-weight: 700;
+		font-size: 16px;
+		margin-right: 25px;
+		color: white;
+		}
+.my_pager_left {
+	margin-top: 0px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	}
+.my_pager_right {
+	margin-top: 0px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	}
+
+/*WHY CHOOSE WE?*/
+
+.why {
+	margin-top: 80px;
+	}
+	.why_content div {
+		padding-bottom: 10px;
+		}
+	.why_content div:nth-child(2) {
+		padding-bottom: 25px;
+		}
+	.why h1 {
+		padding-top: 50px;
+		}

@@ -1,0 +1,409 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.title_block button {
+	margin-top: 15px;
+	}
+.menu {
+	padding-left: 10px;
+	padding-top: 5px;
+	}
+.menu li{
+	padding: 0 15px;
+	}
+.about {
+	margin-top: 10px;
+	}
+	.about_h1 p {
+	font-size: 35px;
+	}
+	.about_h1 {
+	padding-bottom: 30px;
+	text-align: center;
+	}
+.steps_steps {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	}
+	.steps_steps h4, .steps_steps p, .why_content h4, .why_content p  {
+		width: 100%;
+		}
+.slider_content {
+	text-align: center;
+	}
+.slider img, .slider .zigzag {
+	margin: 0 auto;
+	}
+.why {
+	text-align: center;
+	margin-top: 5px;
+	}
+.why h1 {
+	padding-bottom: 20px;
+	padding-top: 25px;
+	}
+.why_content {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+nav {
+	height: 60px;
+	line-height: 60px;
+	background-color: #1e1f1e;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	text-align: center;
+	}
+.logo {
+	padding-top: 20px;
+	}
+.menu_btn {
+	height: 40px;
+	width: 40px;
+	background-color: #e92121;
+	border-radius: 50%;
+	color: white;
+	}
+	.menu_btn span {
+		top: -15px;
+		}
+#top_menu {
+	background-color: #1e1f1e;
+	padding: 20px 0;
+	}
+.menu li {
+	display: block;
+	}
+.menu li a {
+	display: block;
+	}
+.menu li a:hover,
+.menu li a:focus  {
+	color: white;
+	background-color: #5f6161;
+	}
+.title_block {
+	margin-top: 300px;
+	}
+	.title_block button {
+	margin-top: 15px;
+	}
+header {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}	
+.about {
+	margin-top: 10px;
+	}
+	.about_h1 p {
+	font-size: 35px;
+	}
+	.about_h1 {
+	padding-bottom: 30px;
+	text-align: center;
+	}
+.steps_steps {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	width: 100%;
+	}
+	.steps_steps h4, .steps_steps p, .why_content h4, .why_content p  {
+		width: 100%;
+		}
+	.why {
+	text-align: center;
+	margin-top: 5px;
+	}
+.why h1 {
+	padding-bottom: 20px;
+	padding-top: 25px;
+	}
+.why_content {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+nav {
+	height: 60px;
+	line-height: 60px;
+	background-color: #1e1f1e;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	text-align: center;
+	}
+.logo {
+	padding-top: 20px;
+	}
+.menu_btn {
+	height: 40px;
+	width: 40px;
+	background-color: #e92121;
+	border-radius: 50%;
+	color: white;
+	}
+	.menu_btn span {
+		top: -15px;
+		}
+#top_menu {
+	background-color: #1e1f1e;
+	padding: 20px 0;
+	}
+.menu li {
+	display: block;
+	}
+.menu li a {
+	display: block;
+	}
+.menu li a:hover,
+.menu li a:focus  {
+	color: white;
+	background-color: #5f6161;
+	}
+.title_block {
+	margin-top: 300px;
+	}
+	.title_block button {
+		margin-top: 15px;
+		}
+	.title_block h1 {
+		font-size: 35px;
+		}
+	.title_block p {
+		font-size: 24px;
+		}
+header {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+.about {
+	margin-top: 10px;
+	}
+	.about_h1 p {
+	font-size: 35px;
+	}
+	.about_h1 {
+	padding-bottom: 30px;
+	text-align: center;
+	}
+.steps_steps {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	width: 100%;
+	}
+	.steps_steps h4, .steps_steps p, .why_content h4, .why_content p  {
+		width: 100%;
+		}
+	.why {
+	text-align: center;
+	margin-top: 5px;
+	}
+.why h1 {
+	padding-bottom: 20px;
+	padding-top: 25px;
+	}
+.why_content {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+nav {
+	height: 60px;
+	line-height: 60px;
+	background-color: #1e1f1e;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	text-align: center;
+	}
+.logo {
+	padding-top: 20px;
+	}
+.menu_btn {
+	height: 40px;
+	width: 40px;
+	background-color: #e92121;
+	border-radius: 50%;
+	color: white;
+	}
+	.menu_btn span {
+		top: -15px;
+		}
+#top_menu {
+	background-color: #1e1f1e;
+	padding: 20px 0;
+	}
+.menu li {
+	display: block;
+	}
+.menu li a {
+	display: block;
+	}
+.menu li a:hover.
+.menu li a:focus  {
+	color: white;
+	background-color: #5f6161;
+	}
+.title_block {
+	margin-top: 300px;
+	}
+	.title_block button {
+		margin-top: 15px;
+		}
+	.title_block h1 {
+		font-size: 35px;
+		}
+	.title_block p {
+		font-size: 24px;
+		}
+header {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}	
+
+.about {
+	margin-top: 10px;
+	}
+	.about_h1 p {
+	font-size: 35px;
+	}
+	.about_h1 {
+	padding-bottom: 30px;
+	text-align: center;
+	}
+.steps_steps {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	width: 100%;
+	}
+	.steps_steps h4, .steps_steps p, .why_content h4, .why_content p  {
+		width: 100%;
+		}
+	.why {
+	text-align: center;
+	margin-top: 5px;
+	}
+.why h1 {
+	padding-bottom: 20px;
+	padding-top: 25px;
+	}
+.why_content {
+	text-align: center;
+	border: 1px solid white;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	}
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
